@@ -1,5 +1,9 @@
 # 网易云音乐 → QQ 音乐
 
+[![CI](https://github.com/piklen/netease-to-qqmusic/actions/workflows/ci.yml/badge.svg)](https://github.com/piklen/netease-to-qqmusic/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D18-brightgreen.svg)](package.json)
+
 在**你自己的电脑上**把网易云音乐的歌单、我喜欢、收藏专辑和关注歌手迁移到 QQ 音乐。全程本地运行，不经过第三方服务器，写入前必须手动确认。
 
 [English](README.en.md) · [常见问题](#常见问题) · [安全说明](SECURITY.md)

@@ -1,5 +1,8 @@
 # NetEase Cloud Music → QQ Music
 
+[![CI](https://github.com/piklen/netease-to-qqmusic/actions/workflows/ci.yml/badge.svg)](https://github.com/piklen/netease-to-qqmusic/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Migrate your playlists, liked songs, saved albums and followed artists from NetEase Cloud Music to QQ Music — **locally**, with no third-party server, no password sharing, and an explicit confirmation before anything is written.
 
 [中文](README.md) · [Security](SECURITY.md)
