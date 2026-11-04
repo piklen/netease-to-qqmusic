@@ -1,0 +1,49 @@
+{
+  "name": "netease-to-qqmusic",
+  "version": "1.0.0",
+  "description": "在本地把网易云音乐的歌单、我喜欢、收藏专辑和关注歌手迁移到 QQ 音乐，带匹配预览、断点恢复与只读核验",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "n2q": "bin/n2q.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "scripts/",
+    "requirements.txt",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "setup": "node scripts/setup.js",
+    "start": "node bin/n2q.js",
+    "n2q": "node bin/n2q.js",
+    "test": "node --test test/*.test.js",
+    "test:py": "node scripts/test-python.js",
+    "test:all": "npm test && npm run test:py"
+  },
+  "keywords": [
+    "netease",
+    "qqmusic",
+    "playlist",
+    "migration",
+    "music"
+  ],
+  "dependencies": {
+    "@neteasecloudmusicapienhanced/api": "4.41.1",
+    "qrcode": "1.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piklen/netease-to-qqmusic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/piklen/netease-to-qqmusic/issues"
+  },
+  "homepage": "https://github.com/piklen/netease-to-qqmusic#readme",
+  "author": "piklen"
+}

@@ -1,0 +1,14 @@
+node_modules/
+.venv/
+data/
+*.log
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.idea/
+.vscode/
+coverage/
+*.tmp
+
+.npm-cache/
